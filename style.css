@@ -1,0 +1,109 @@
+body{
+	font-size: 16pt;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}
+h1{
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 18pt;
+  background-color: #444;
+  color: #fff;
+  
+}
+.question{
+  font-size: 16pt;
+  font-style: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+.answers {
+    font-size: 16pt;
+    line-height: 150%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+    display: inline-block;
+}
+.answers label{
+  display: block;
+}
+button{
+    font-family: 'Roboto', sans-serif;
+	font-size: 16pt;
+	background-color: #279;
+	color: #fff;
+    border-radius: 3px;
+    height: 40px;
+    padding-left:30px;
+    padding-right:30px;
+    margin: 10px;
+    margin-top: 80px;
+
+}
+button:hover{
+	background-color: #38a;
+}
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: relative;
+  height: 200px;
+}
+
+#form{
+    font-size: 16pt;
+    display: none;
+    
+}
+
+#scores{
+    font-size: 16pt;
+    display: none;
+}
+
+.enter {
+    font-family: 'Roboto', sans-serif;
+	font-size: 16pt;
+	background-color: #279;
+	color: #fff;
+    border-radius: 3px;
+    height: 60px;
+    padding-left:30px;
+    padding-right:30px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.inputField {
+    font-family: 'Roboto', sans-serif;
+	font-size: 16pt;
+	background-color: white;
+    color: #279;
+    border-color: #279;
+    border-radius: 3px;
+    height: 60px;
+    padding-left:30px;
+    padding-right:30px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.timer{
+    font-size: 30pt;
+    font-style: bold;
+}
